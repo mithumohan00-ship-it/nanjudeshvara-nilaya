@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80" width="100%" height="100%">
+  <defs>
+    <linearGradient id="brassGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE082" />
+      <stop offset="40%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#795548" />
+    </linearGradient>
+    <radialGradient id="diyaGlow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#FFF9C4" stop-opacity="0.9" />
+      <stop offset="40%" stop-color="#FF9800" stop-opacity="0.5" />
+      <stop offset="80%" stop-color="#E65100" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#E65100" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="flameCore" cx="50%" cy="70%" r="60%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="25%" stop-color="#FFF59D" />
+      <stop offset="60%" stop-color="#FF9800" />
+      <stop offset="100%" stop-color="#D84315" />
+    </radialGradient>
+  </defs>
+
+  <!-- Radiant Glow -->
+  <circle cx="50" cy="22" r="22" fill="url(#diyaGlow)" />
+
+  <!-- Diya Lamp Flame -->
+  <g>
+    <!-- Outer flame flick -->
+    <path d="M50 4 C43 14, 40 24, 44 32 C47 38, 53 38, 56 32 C60 24, 57 14, 50 4 Z" fill="url(#flameCore)" />
+    <!-- Inner bright teardrop -->
+    <path d="M50 14 C46 20, 45 26, 48 30 C50 32, 52 32, 53 29 C55 24, 54 18, 50 14 Z" fill="#FFFFFF" opacity="0.9" />
+  </g>
+
+  <!-- Diya Brass Bowl (Agal) -->
+  <g fill="url(#brassGold)" stroke="#6D4C41" stroke-width="1">
+    <!-- Diya Lip & Spout -->
+    <path d="M18 42 C24 38, 76 38, 82 42 C85 45, 80 56, 68 62 L32 62 C20 56, 15 45, 18 42 Z" />
+    <!-- Inner Oil Depression -->
+    <ellipse cx="50" cy="44" rx="28" ry="4" fill="#5D4037" stroke="url(#brassGold)" stroke-width="1" />
+    <!-- Wick (Batti) -->
+    <line x1="50" y1="36" x2="50" y2="44" stroke="#FFF9C4" stroke-width="2" stroke-linecap="round" />
+    <!-- Base / Stand -->
+    <path d="M38 62 L36 70 L64 70 L62 62 Z" />
+    <ellipse cx="50" cy="70" rx="18" ry="3.5" />
+  </g>
+
+  <!-- Decorative engravings on bowl -->
+  <path d="M30 48 Q35 54 40 48 Q45 54 50 48 Q55 54 60 48 Q65 54 70 48" fill="none" stroke="#FFE082" stroke-width="1.2" />
+</svg>

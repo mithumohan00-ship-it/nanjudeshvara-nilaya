@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 90" width="100%" height="100%" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="leafGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2E7D32" />
+      <stop offset="60%" stop-color="#1B5E20" />
+      <stop offset="100%" stop-color="#0E3914" />
+    </linearGradient>
+    <radialGradient id="marigoldOrange" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFE082" />
+      <stop offset="40%" stop-color="#FF9800" />
+      <stop offset="90%" stop-color="#E65100" />
+      <stop offset="100%" stop-color="#BF360C" />
+    </radialGradient>
+    <radialGradient id="marigoldYellow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFF8D" />
+      <stop offset="40%" stop-color="#FFEB3B" />
+      <stop offset="90%" stop-color="#FBC02D" />
+      <stop offset="100%" stop-color="#F57F17" />
+    </radialGradient>
+    <linearGradient id="goldRope" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D4AF37" />
+      <stop offset="50%" stop-color="#FFF3B0" />
+      <stop offset="100%" stop-color="#D4AF37" />
+    </linearGradient>
+  </defs>
+
+  <!-- Hanging Twine / Golden Rope across top -->
+  <path d="M0 8 Q200 14 400 8 Q600 14 800 8" fill="none" stroke="url(#goldRope)" stroke-width="4" />
+  <path d="M0 8 Q200 14 400 8 Q600 14 800 8" fill="none" stroke="#D32F2F" stroke-width="1.5" stroke-dasharray="8,6" />
+
+  <!-- Repeated Mango Leaves Group Pattern -->
+  <!-- Leaf helper macro at x coordinates: 40, 120, 200, 280, 360, 440, 520, 600, 680, 760 -->
+  <!-- Every leaf has a stem, leaf blade with pointed tip, and vein -->
+
+  <!-- Leaf 1 -->
+  <g transform="translate(40, 8)">
+    <path d="M0 0 C-14 16, -16 48, 0 68 C16 48, 14 16, 0 0 Z" fill="url(#leafGrad2)" stroke="#143D1A" stroke-width="0.8" />
+    <line x1="0" y1="0" x2="0" y2="60" stroke="#81C784" stroke-width="0.8" opacity="0.6" />
+  </g>
+  <!-- Leaf 2 -->
+  <g transform="translate(120, 10)">
+    <path d="M0 0 C-14 16, -16 48, 0 68 C16 48, 14 16, 0 0 Z" fill="url(#leafGrad2)" stroke="#143D1A" stroke-width="0.8" />
+    <line x1="0" y1="0" x2="0" y2="60" stroke="#81C784" stroke-width="0.8" opacity="0.6" />
+  </g>
+  <!-- Leaf 3 -->
+  <g transform="translate(200, 11)">
+    <path d="M0 0 C-14 16, -16 48, 0 68 C16 48, 14 16, 0 0 Z" fill="url(#leafGrad2)" stroke="#143D1A" stroke-width="0.8" />
+    <line x1="0" y1="0" x2="0" y2="60" stroke="#81C784" stroke-width="0.8" opacity="0.6" />
+  </g>
+  <!-- Leaf 4 -->
+  <g transform="translate(280, 10)">
+    <path d="M0 0 C-14 16, -16 48, 0 68 C16 48, 14 16, 0 0 Z" fill="url(#leafGrad2)" stroke="#143D1A" stroke-width="0.8" />
+    <line x1="0" y1="0" x2="0" y2="60" stroke="#81C784" stroke-width="0.8" opacity="0.6" />
+  </g>
+  <!-- Leaf 5 -->
+  <g transform="translate(360, 9)">
+    <path d="M0 0 C-14 16, -16 48, 0 68 C16 48, 14 16, 0 0 Z" fill="url(#leafGrad2)" stroke="#143D1A" stroke-width="0.8" />
+    <line x1="0" y1="0" x2="0" y2="60" stroke="#81C784" stroke-width="0.8" opacity="0.6" />
+  </g>
+  <!-- Leaf 6 -->
+  <g transform="translate(440, 9)">
+    <path d="M0 0 C-14 16, -16 48, 0 68 C16 48, 14 16, 0 0 Z" fill="url(#leafGrad2)" stroke="#143D1A" stroke-width="0.8" />
+    <line x1="0" y1="0" x2="0" y2="60" stroke="#81C784" stroke-width="0.8" opacity="0.6" />
+  </g>
+  <!-- Leaf 7 -->
+  <g transform="translate(520, 10)">
+    <path d="M0 0 C-14 16, -16 48, 0 68 C16 48, 14 16, 0 0 Z" fill="url(#leafGrad2)" stroke="#143D1A" stroke-width="0.8" />
+    <line x1="0" y1="0" x2="0" y2="60" stroke="#81C784" stroke-width="0.8" opacity="0.6" />
+  </g>
+  <!-- Leaf 8 -->
+  <g transform="translate(600, 11)">
+    <path d="M0 0 C-14 16, -16 48, 0 68 C16 48, 14 16, 0 0 Z" fill="url(#leafGrad2)" stroke="#143D1A" stroke-width="0.8" />
+    <line x1="0" y1="0" x2="0" y2="60" stroke="#81C784" stroke-width="0.8" opacity="0.6" />
+  </g>
+  <!-- Leaf 9 -->
+  <g transform="translate(680, 10)">
+    <path d="M0 0 C-14 16, -16 48, 0 68 C16 48, 14 16, 0 0 Z" fill="url(#leafGrad2)" stroke="#143D1A" stroke-width="0.8" />
+    <line x1="0" y1="0" x2="0" y2="60" stroke="#81C784" stroke-width="0.8" opacity="0.6" />
+  </g>
+  <!-- Leaf 10 -->
+  <g transform="translate(760, 8)">
+    <path d="M0 0 C-14 16, -16 48, 0 68 C16 48, 14 16, 0 0 Z" fill="url(#leafGrad2)" stroke="#143D1A" stroke-width="0.8" />
+    <line x1="0" y1="0" x2="0" y2="60" stroke="#81C784" stroke-width="0.8" opacity="0.6" />
+  </g>
+
+  <!-- Marigold Flower Garland (Sevanthige & Chendu Hoo) -->
+  <!-- Swags / Garlands dipping between leaves -->
+  <!-- Marigold blossoms along the top cord and suspended tassels -->
+  <!-- Flowers along cord -->
+  <circle cx="0" cy="8" r="10" fill="url(#marigoldOrange)" />
+  <circle cx="40" cy="10" r="9" fill="url(#marigoldYellow)" />
+  <circle cx="80" cy="11" r="10" fill="url(#marigoldOrange)" />
+  <circle cx="120" cy="12" r="9" fill="url(#marigoldYellow)" />
+  <circle cx="160" cy="12" r="10" fill="url(#marigoldOrange)" />
+  <circle cx="200" cy="13" r="9" fill="url(#marigoldYellow)" />
+  <circle cx="240" cy="12" r="10" fill="url(#marigoldOrange)" />
+  <circle cx="280" cy="12" r="9" fill="url(#marigoldYellow)" />
+  <circle cx="320" cy="11" r="10" fill="url(#marigoldOrange)" />
+  <circle cx="360" cy="10" r="9" fill="url(#marigoldYellow)" />
+  <circle cx="400" cy="10" r="11" fill="url(#marigoldOrange)" />
+  <circle cx="440" cy="10" r="9" fill="url(#marigoldYellow)" />
+  <circle cx="480" cy="11" r="10" fill="url(#marigoldOrange)" />
+  <circle cx="520" cy="12" r="9" fill="url(#marigoldYellow)" />
+  <circle cx="560" cy="12" r="10" fill="url(#marigoldOrange)" />
+  <circle cx="600" cy="13" r="9" fill="url(#marigoldYellow)" />
+  <circle cx="640" cy="12" r="10" fill="url(#marigoldOrange)" />
+  <circle cx="680" cy="12" r="9" fill="url(#marigoldYellow)" />
+  <circle cx="720" cy="11" r="10" fill="url(#marigoldOrange)" />
+  <circle cx="760" cy="10" r="9" fill="url(#marigoldYellow)" />
+  <circle cx="800" cy="8" r="10" fill="url(#marigoldOrange)" />
+
+  <!-- Hanging Marigold Strings / Tassels between leaves -->
+  <g>
+    <!-- At 80 -->
+    <line x1="80" y1="12" x2="80" y2="48" stroke="#FFE082" stroke-width="1.5" />
+    <circle cx="80" cy="24" r="7" fill="url(#marigoldYellow)" />
+    <circle cx="80" cy="38" r="7.5" fill="url(#marigoldOrange)" />
+    <circle cx="80" cy="50" r="8" fill="url(#marigoldYellow)" />
+    <!-- At 240 -->
+    <line x1="240" y1="12" x2="240" y2="48" stroke="#FFE082" stroke-width="1.5" />
+    <circle cx="240" cy="24" r="7" fill="url(#marigoldYellow)" />
+    <circle cx="240" cy="38" r="7.5" fill="url(#marigoldOrange)" />
+    <circle cx="240" cy="50" r="8" fill="url(#marigoldYellow)" />
+    <!-- At 400 (Center auspicious long pendant) -->
+    <line x1="400" y1="12" x2="400" y2="76" stroke="#FFE082" stroke-width="1.5" />
+    <circle cx="400" cy="24" r="7.5" fill="url(#marigoldYellow)" />
+    <circle cx="400" cy="38" r="8" fill="url(#marigoldOrange)" />
+    <circle cx="400" cy="52" r="8.5" fill="url(#marigoldYellow)" />
+    <circle cx="400" cy="66" r="9" fill="url(#marigoldOrange)" />
+    <circle cx="400" cy="78" r="5" fill="#D32F2F" />
+    <!-- At 560 -->
+    <line x1="560" y1="12" x2="560" y2="48" stroke="#FFE082" stroke-width="1.5" />
+    <circle cx="560" cy="24" r="7" fill="url(#marigoldYellow)" />
+    <circle cx="560" cy="38" r="7.5" fill="url(#marigoldOrange)" />
+    <circle cx="560" cy="50" r="8" fill="url(#marigoldYellow)" />
+    <!-- At 720 -->
+    <line x1="720" y1="12" x2="720" y2="48" stroke="#FFE082" stroke-width="1.5" />
+    <circle cx="720" cy="24" r="7" fill="url(#marigoldYellow)" />
+    <circle cx="720" cy="38" r="7.5" fill="url(#marigoldOrange)" />
+    <circle cx="720" cy="50" r="8" fill="url(#marigoldYellow)" />
+  </g>
+</svg>

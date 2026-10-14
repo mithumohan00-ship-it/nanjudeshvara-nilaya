@@ -1,0 +1,37 @@
+/* Print Stylesheet for Traditional Kannada Gruhapravesha Card */
+@media print {
+  /* Hide interactive web UI elements */
+  .control-pill-btn,
+  .card-control-bar,
+  .hero-cta-group,
+  .calendar-actions,
+  .venue-action-buttons,
+  .floating-share-btn,
+  .share-modal-overlay,
+  .toast-notice,
+  .footer-copyright {
+    display: none !important;
+  }
+
+  body {
+    background: #FFFFFF !important;
+    color: #000000 !important;
+    font-size: 12pt;
+    margin: 0;
+    padding: 0;
+  }
+
+  .physical-card-container {
+    box-shadow: none !important;
+    border: 3px double #D4AF37 !important;
+    page-break-inside: avoid;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    padding: 2rem !important;
+  }
+
+  .section-wrapper {
+    padding: 1rem 0 !important;
+  }
+}

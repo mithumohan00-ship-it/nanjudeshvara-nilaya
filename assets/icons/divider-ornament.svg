@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 50" width="100%" height="100%">
+  <defs>
+    <linearGradient id="divGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C59B27" stop-opacity="0" />
+      <stop offset="25%" stop-color="#C59B27" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#FFE082" />
+      <stop offset="75%" stop-color="#C59B27" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#C59B27" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Central Lotus Motif -->
+  <g transform="translate(200, 25)">
+    <!-- Central petal -->
+    <path d="M0 -14 C-4 -8, -6 -2, 0 4 C6 -2, 4 -8, 0 -14 Z" fill="#D32F2F" />
+    <path d="M0 -12 C-2 -7, -4 -2, 0 3 C4 -2, 2 -7, 0 -12 Z" fill="#FFE082" />
+    <!-- Left petals -->
+    <path d="M-2 2 C-8 -4, -14 -4, -12 2 C-10 6, -4 4, -2 2 Z" fill="#D4AF37" />
+    <path d="M-4 3 C-10 2, -14 8, -6 8 C-2 7, -3 4, -4 3 Z" fill="#AA771C" />
+    <!-- Right petals -->
+    <path d="M2 2 C8 -4, 14 -4, 12 2 C10 6, 4 4, 2 2 Z" fill="#D4AF37" />
+    <path d="M4 3 C10 2, 14 8, 6 8 C2 7, 3 4, 4 3 Z" fill="#AA771C" />
+    <!-- Base bead -->
+    <circle cx="0" cy="5" r="2.5" fill="#D32F2F" />
+  </g>
+
+  <!-- Flanking Swirls & Filigree Lines -->
+  <!-- Left Side -->
+  <path d="M175 25 Q140 15 100 25 T30 25" fill="none" stroke="url(#divGold)" stroke-width="1.8" stroke-linecap="round" />
+  <path d="M165 25 Q145 32 130 25" fill="none" stroke="#C59B27" stroke-width="1" />
+  <circle cx="120" cy="25" r="2" fill="#D4AF37" />
+  <circle cx="70" cy="25" r="1.5" fill="#D4AF37" />
+  <circle cx="160" cy="22" r="1.5" fill="#D32F2F" />
+
+  <!-- Right Side -->
+  <path d="M225 25 Q260 15 300 25 T370 25" fill="none" stroke="url(#divGold)" stroke-width="1.8" stroke-linecap="round" />
+  <path d="M235 25 Q255 32 270 25" fill="none" stroke="#C59B27" stroke-width="1" />
+  <circle cx="280" cy="25" r="2" fill="#D4AF37" />
+  <circle cx="330" cy="25" r="1.5" fill="#D4AF37" />
+  <circle cx="240" cy="22" r="1.5" fill="#D32F2F" />
+</svg>

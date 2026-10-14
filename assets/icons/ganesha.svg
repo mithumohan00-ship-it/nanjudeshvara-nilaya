@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE082" />
+      <stop offset="30%" stop-color="#D4AF37" />
+      <stop offset="70%" stop-color="#AA771C" />
+      <stop offset="100%" stop-color="#805300" />
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D32F2F" />
+      <stop offset="100%" stop-color="#7B0000" />
+    </linearGradient>
+    <radialGradient id="auraGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF9C4" stop-opacity="0.8" />
+      <stop offset="60%" stop-color="#FFE082" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0" />
+    </radialGradient>
+    <filter id="goldDrop" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#5B3E06" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Divine Aura -->
+  <circle cx="100" cy="100" r="92" fill="url(#auraGlow)" />
+  <circle cx="100" cy="100" r="90" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-dasharray="3,3" />
+  <circle cx="100" cy="100" r="85" fill="none" stroke="url(#goldGrad)" stroke-width="0.75" />
+
+  <!-- Rays / Lotus Petals around halo -->
+  <g stroke="url(#goldGrad)" stroke-width="1" opacity="0.6">
+    <path d="M100 8 L100 15 M100 185 L100 192 M8 100 L15 100 M185 100 L192 100" />
+    <path d="M35 35 L40 40 M160 160 L165 165 M35 165 L40 160 M160 40 L165 35" />
+    <path d="M100 12 Q105 22 100 25 Q95 22 100 12" fill="url(#goldGrad)" />
+    <path d="M100 175 Q105 178 100 188 Q95 178 100 175" fill="url(#goldGrad)" />
+    <path d="M12 100 Q22 95 25 100 Q22 105 12 100" fill="url(#goldGrad)" />
+    <path d="M175 100 Q178 95 188 100 Q178 105 175 100" fill="url(#goldGrad)" />
+  </g>
+
+  <!-- Crown (Mukuta) -->
+  <g filter="url(#goldDrop)">
+    <!-- Base tier -->
+    <path d="M78 52 C84 48, 116 48, 122 52 L120 44 C112 40, 88 40, 80 44 Z" fill="url(#goldGrad)" />
+    <!-- Middle tier -->
+    <path d="M82 43 C87 36, 113 36, 118 43 L114 32 C108 28, 92 28, 86 32 Z" fill="url(#goldGrad)" />
+    <!-- Peak & Kalash top -->
+    <path d="M88 31 C92 22, 108 22, 112 31 L105 18 Q100 14 95 18 Z" fill="url(#goldGrad)" />
+    <circle cx="100" cy="14" r="3" fill="#D32F2F" />
+    <circle cx="100" cy="22" r="2" fill="url(#goldGrad)" />
+    <!-- Crown Jewels -->
+    <circle cx="100" cy="38" r="2.5" fill="#B71C1C" />
+    <circle cx="92" cy="46" r="2" fill="#1B5E20" />
+    <circle cx="100" cy="46" r="2.5" fill="#D4AF37" />
+    <circle cx="108" cy="46" r="2" fill="#1B5E20" />
+  </g>
+
+  <!-- Ears (Karna) -->
+  <g fill="none" stroke="url(#goldGrad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#goldDrop)">
+    <!-- Left Ear -->
+    <path d="M78 68 C58 64, 45 74, 46 88 C47 98, 56 104, 68 102 C72 101, 75 97, 75 94" />
+    <path d="M60 76 C54 78, 52 84, 54 88 C56 92, 60 94, 66 92" stroke-width="1.5" />
+    <!-- Right Ear -->
+    <path d="M122 68 C142 64, 155 74, 154 88 C153 98, 144 104, 132 102 C128 101, 125 97, 125 94" />
+    <path d="M140 76 C146 78, 148 84, 146 88 C144 92, 140 94, 134 92" stroke-width="1.5" />
+  </g>
+
+  <!-- Head & Face Profile -->
+  <g fill="none" stroke="url(#goldGrad)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#goldDrop)">
+    <!-- Head curves into Trunk (Vakratunda) -->
+    <path d="M78 64 C78 54, 122 54, 122 64" />
+    <!-- Left cheek to tusk -->
+    <path d="M78 66 C80 82, 85 96, 88 106 C92 118, 93 128, 92 136 C90 144, 84 150, 77 150 C70 150, 66 142, 70 134 C73 128, 81 127, 85 131" />
+  </g>
+
+  <!-- Trunk Details & Rings -->
+  <g stroke="url(#goldGrad)" stroke-width="2" fill="none" opacity="0.8">
+    <path d="M89 112 C93 114, 98 114, 101 112" />
+    <path d="M90 120 C93 122, 98 122, 100 120" />
+    <path d="M89 128 C92 130, 96 130, 98 128" />
+  </g>
+
+  <!-- Modaka (Sweet in Trunk) -->
+  <g filter="url(#goldDrop)">
+    <circle cx="85" cy="132" r="6" fill="url(#goldGrad)" />
+    <path d="M85 125 L87 131 L83 131 Z" fill="#D32F2F" />
+  </g>
+
+  <!-- Tusks (Danta) -->
+  <!-- Left unbroken tusk -->
+  <path d="M82 96 C80 102, 76 106, 73 108 L74 102 Z" fill="#FFF9C4" stroke="url(#goldGrad)" stroke-width="1" />
+  <!-- Right broken tusk (symbol of wisdom & sacrifice) -->
+  <path d="M117 96 L123 99 L120 102 Z" fill="#FFF9C4" stroke="url(#goldGrad)" stroke-width="1" />
+
+  <!-- Eyes (Nayana) -->
+  <!-- Left Eye -->
+  <path d="M85 76 Q91 73 95 78 Q90 81 85 76 Z" fill="#3E2723" />
+  <circle cx="91" cy="76" r="1.5" fill="#FFE082" />
+  <path d="M83 74 Q90 71 97 74" fill="none" stroke="url(#goldGrad)" stroke-width="1.2" />
+  <!-- Right Eye -->
+  <path d="M115 76 Q109 73 105 78 Q110 81 115 76 Z" fill="#3E2723" />
+  <circle cx="109" cy="76" r="1.5" fill="#FFE082" />
+  <path d="M117 74 Q110 71 103 74" fill="none" stroke="url(#goldGrad)" stroke-width="1.2" />
+
+  <!-- Sacred Tilak / Trishula / Chandrakala on Forehead -->
+  <g filter="url(#goldDrop)">
+    <!-- Sandalwood paste horizontal lines -->
+    <path d="M92 61 C96 60, 104 60, 108 61" stroke="#FFF9C4" stroke-width="2" stroke-linecap="round" />
+    <path d="M93 64 C97 63, 103 63, 107 64" stroke="#FFF9C4" stroke-width="2" stroke-linecap="round" />
+    <path d="M94 67 C98 66, 102 66, 106 67" stroke="#FFF9C4" stroke-width="2" stroke-linecap="round" />
+    <!-- Red Kumkum Trishula / Bindi -->
+    <path d="M100 56 L100 68" stroke="url(#redGrad)" stroke-width="2.5" stroke-linecap="round" />
+    <circle cx="100" cy="62" r="2.2" fill="url(#redGrad)" />
+    <circle cx="100" cy="56" r="1.5" fill="#FFEB3B" />
+  </g>
+
+  <!-- Sacred Om / Swastika Accent on Left Palm / Belly indication -->
+  <!-- Modest Base Lotus (Padmasana) -->
+  <g fill="url(#goldGrad)" opacity="0.85">
+    <path d="M100 162 C90 162, 70 168, 64 176 C74 178, 88 175, 100 172 C112 175, 126 178, 136 176 C130 168, 110 162, 100 162 Z" />
+    <path d="M100 164 C94 170, 84 178, 76 182 C90 182, 100 176, 100 176 C100 176, 110 182, 124 182 C116 178, 106 170, 100 164 Z" fill="#AA771C" />
+  </g>
+
+  <!-- Auspicious Bell / Hanging Pendant -->
+  <circle cx="100" cy="154" r="3" fill="#D32F2F" />
+  <circle cx="100" cy="158" r="2" fill="url(#goldGrad)" />
+</svg>
