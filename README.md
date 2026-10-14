@@ -30,7 +30,7 @@ A premium, culturally authentic, and elegant digital housewarming invitation web
 4. **Venue & Directions**:
    - Venue: `Doddagenahalli, Bengaluru – 560 056, Karnataka, India`
    - Interactive embedded Google Map
-   - **Get Directions** button linking directly to Google Maps navigation
+   - **Get Directions** button linking directly to Google Maps: `https://goo.gl/maps/qCS5dRAVQBboKctw7?g_st=aw`
    - One-click **Copy Address** button with animated toast confirmation
 
 5. **Digital Invitation Sharing**:

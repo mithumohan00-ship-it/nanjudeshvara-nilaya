@@ -28,6 +28,7 @@ Sri Satyanarayana Swamy Puja: 10:00 AM onwards
 Lunch: 12:30 PM
 
 Venue: Doddagenahalli, Bengaluru – 560 056.
+Location Map: https://goo.gl/maps/qCS5dRAVQBboKctw7?g_st=aw
 
 We look forward to your gracious presence and blessings.
 

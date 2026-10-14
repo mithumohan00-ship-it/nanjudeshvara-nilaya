@@ -78,7 +78,7 @@ class GruhapraveshaCountdown {
     const iCalBtn = document.getElementById('add-ical-btn');
 
     const eventTitle = 'Sri Sanjundeshwara Nilaya – Gruhapravesha Ceremony 2026';
-    const eventDetails = 'Gruhapravesha Ceremony (4:40 AM - 6:40 AM), Sri Satyanarayana Swamy Puja (10:00 AM onwards), Bhojana/Lunch (12:30 PM). Venue: Doddagenahalli, Bengaluru - 560 056.';
+    const eventDetails = 'Gruhapravesha Ceremony (4:40 AM - 6:40 AM), Sri Satyanarayana Swamy Puja (10:00 AM onwards), Bhojana/Lunch (12:30 PM). Venue: Doddagenahalli, Bengaluru - 560 056. Google Maps: https://goo.gl/maps/qCS5dRAVQBboKctw7?g_st=aw';
     const eventLocation = 'Doddagenahalli, Bengaluru – 560 056, Karnataka, India';
 
     // 2026-10-30 04:40 to 15:00 IST -> UTC is 20261029T231000Z to 20261030T093000Z
