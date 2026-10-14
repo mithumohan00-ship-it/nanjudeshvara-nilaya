@@ -27,7 +27,7 @@ Ceremony: 4:40 AM – 6:40 AM
 Sri Satyanarayana Swamy Puja: 10:00 AM onwards
 Lunch: 12:30 PM
 
-Venue: Doddagenahalli, Bengaluru – 560 056.
+Venue: Nagadevanahalli, Bengaluru – 560 056.
 Location Map: https://goo.gl/maps/qCS5dRAVQBboKctw7?g_st=aw
 
 We look forward to your gracious presence and blessings.
@@ -105,7 +105,7 @@ Invitation Link: ${this.pageUrl}`;
     this.copyAddressBtns.forEach(btn => {
       btn.addEventListener('click', (e) => {
         e.preventDefault();
-        const address = 'Sri Sanjundeshwara Nilaya, Doddagenahalli, Bengaluru – 560 056, Karnataka, India';
+        const address = 'Sri Sanjundeshwara Nilaya, Nagadevanahalli, Bengaluru – 560 056, Karnataka, India';
         this.copyToClipboard(address, 'Venue address copied to clipboard! 📍');
       });
     });
