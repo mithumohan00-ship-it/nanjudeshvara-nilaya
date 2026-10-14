@@ -8,7 +8,7 @@ A premium, culturally authentic, and elegant digital housewarming invitation web
 ## 🌟 Key Features
 
 1. **Authentic Kannada & South Indian Aesthetics**:
-   - Invocations: `॥ ಶ್ರೀ ತೋಟನೂರು ಸಾಂಬು ಕ್ರುಪೆ ॥` and `॥ ಶ್ರೀ ಶ್ರೀ ಹೋಳೆ ಚೌಡೇಶ್ವರಿ ಕ್ರುಪೆ ॥`
+   - Invocations: `॥ ಶ್ರೀ ತೋಪಿನಯ್ಯ ಸ್ವಾಮಿ ಕೃಪೆ ॥` and `॥ ಶ್ರೀ ಶ್ರೀ ಹೋಳೆ ಚೌಡೇಶ್ವರಿ ಕ್ರುಪೆ ॥`
    - Detailed vector illustration of **Lord Ganesha**
    - Traditional antique-gold filigree borders, corner ornaments, and sacred motifs
    - Warm ivory, cream, deep maroon (`#6B1724`), and forest green (`#1B4D3E`) traditional color palette
